@@ -1,42 +1,39 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sehenswürdigkeiten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-    background-color: #d32f2f;
-    color: white;
-    padding: 2rem;
-    text-align: center;
-}
+<header>
+    <h1>Sehenswürdigkeiten</h1>
+    <nav>
+        <a href="#attraktion1">Ort 1</a>
+        <a href="#attraktion2">Ort 2</a>
+        <a href="#attraktion3">Ort 3</a>
+    </nav>
+</header>
 
-nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-}
+<section id="attraktion1" class="attraktion">
+    <h2>Attraktion 1</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Attraktion 1">
+    <p>Beschreibung der ersten Attraktion. Hier kannst du interessante Infos einfügen.</p>
+</section>
 
-.attraktion {
-    background: white;
-    margin: 2rem auto;
-    padding: 2rem;
-    max-width: 800px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+<section id="attraktion2" class="attraktion">
+    <h2>Attraktion 2</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Attraktion 2">
+    <p>Beschreibung der zweiten Attraktion. Auch hier kannst du Details ergänzen.</p>
+</section>
 
-img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin: 1rem 0;
-}
+<section id="attraktion3" class="attraktion">
+    <h2>Attraktion 3</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Attraktion 3">
+    <p>Beschreibung der dritten Attraktion. Füge hier weitere Inhalte hinzu.</p>
+</section>
 
-h2 {
-    color: #d32f2f;
-}
+</body>
+</html>
