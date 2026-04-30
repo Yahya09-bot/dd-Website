@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sehenswürdigkeiten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sehenswürdigkeiten</h1>
+    <nav>
+        <a href="#attraktion1">Ort 1</a>
+        <a href="#attraktion2">Ort 2</a>
+        <a href="#attraktion3">Ort 3</a>
+    </nav>
+</header>
+
+<section id="attraktion1" class="attraktion">
+    <h2>Attraktion 1</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Attraktion 1">
+    <p>Beschreibung der ersten Attraktion. Hier kannst du interessante Infos einfügen.</p>
+</section>
+
+<section id="attraktion2" class="attraktion">
+    <h2>Attraktion 2</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Attraktion 2">
+    <p>Beschreibung der zweiten Attraktion. Auch hier kannst du Details ergänzen.</p>
+</section>
+
+<section id="attraktion3" class="attraktion">
+    <h2>Attraktion 3</h2>
+    <img src="https://via.placeholder.com/800x300" alt="Attraktion 3">
+    <p>Beschreibung der dritten Attraktion. Füge hier weitere Inhalte hinzu.</p>
+</section>
+
+</body>
+</html>
